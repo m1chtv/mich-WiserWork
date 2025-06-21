@@ -58,8 +58,8 @@ git clone https://github.com/m1chtv/wiserwork.git
 cd wiserwork
 ```
 
-# Open index.html directly in browser or use a local server
-# No dependencies. Just HTML, CSS, JS.
+- Open index.html directly in browser or use a local server
+- No dependencies. Just HTML, CSS, JS.
 
 ---
 
