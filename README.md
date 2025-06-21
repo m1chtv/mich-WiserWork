@@ -72,7 +72,7 @@ cd wiserwork
 - 📡 Public API for select tools
 
 ## 📄 License
-MIT © [mich]
+MIT © [mich WiserWork]
 Feel free to fork and use — credits appreciated but not required.
 
 ## 🌟 Support
