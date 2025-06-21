@@ -54,7 +54,7 @@ Submit your request using the [Feature Request Form](https://github.com/m1chtv/m
 ## 📦 Installation (for Devs)
 
 ```bash
-git clone https://github.com/your-username/wiserwork.git
+git clone https://github.com/m1chtv/wiserwork.git
 cd wiserwork
 ```
 
