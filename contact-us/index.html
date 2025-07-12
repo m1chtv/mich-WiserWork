@@ -129,13 +129,51 @@
       }
     </script>
 
-    <link rel="preload" href="../mich/mich.css" as="style" />
-    <link rel="stylesheet" href="../mich/mich.css" />
+    <link
+      rel="preload"
+      href="../mich/mich.css"
+      as="style"
+      onload="this.onload=null;this.rel='stylesheet'"
+    />
+    <noscript><link rel="stylesheet" href="../mich/mich.css" /></noscript>
+    <script src="../mich/ads.js" defer></script>
+
+    <script
+      async
+      src="https://fundingchoicesmessages.google.com/i/pub-5483228979263143?ers=1"
+    ></script>
+    <script>
+      (function () {
+        function signalGooglefcPresent() {
+          if (!window.frames["googlefcPresent"]) {
+            if (document.body) {
+              const iframe = document.createElement("iframe");
+              iframe.style =
+                "width: 0; height: 0; border: none; z-index: -1000; left: -1000px; top: -1000px;";
+              iframe.style.display = "none";
+              iframe.name = "googlefcPresent";
+              document.body.appendChild(iframe);
+            } else {
+              setTimeout(signalGooglefcPresent, 0);
+            }
+          }
+        }
+        signalGooglefcPresent();
+      })();
+    </script>
 
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      media="print"
+      onload="this.media='all'"
     />
+    <noscript>
+      <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      />
+    </noscript>
     <style>
       .container {
         max-width: 900px;
@@ -206,17 +244,36 @@
   </head>
   <body>
     <!-- Horizontal Banner Ad -->
-    <div class="mich-ad mich-banner">Ad Space: Horizontal Banner</div>
+    <!-- <div class="mich-ad mich-banner">
+      <script
+        async
+        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5483228979263143"
+        crossorigin="anonymous"
+      ></script>
+      <ins
+        class="adsbygoogle"
+    style="display: block"
+    data-ad-client="ca-pub-5483228979263143"
+    data-ad-slot="6891739573"
+    data-ad-format="auto"
+    data-full-width-responsive="true"
+      ></ins>
+      <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+      </script>
+    </div> -->
 
     <nav class="navbar">
-      <img
-        src="https://wiserwork.org/mich/WiserWorkLogo.png"
-        class="logo"
-        width="auto"
-        height="50"
-        alt="WiserWork Logo"
-        loading="lazy"
-      />
+      <a href="https://wiserwork.org">
+        <img
+          src="https://wiserwork.org/mich/WiserWorkLogo.png"
+          class="logo"
+          width="auto"
+          height="50"
+          alt="WiserWork Logo"
+          loading="lazy"
+        />
+      </a>
       <ul class="nav-links">
         <li><a href="https://wiserwork.org">Home</a></li>
         <li class="mega-menu-container">
@@ -329,12 +386,27 @@
           <i class="fas fa-envelope"></i>
           <h3>Email</h3>
           <div class="info">
-            <a href="mailto:amirdelirious@gmail.com">Amirdelirious@gmail.com</a>
+            <a href="mailto:amirdelirious@gmail.com">Amirdelirious@</a>
           </div>
         </div>
       </div>
 
-      <div class="mich-ad mich-rectangle">Ad Space: Rectangle Ad</div>
+      <!-- <div class="mich-ad mich-rectangle">
+        <script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5483228979263143"
+          crossorigin="anonymous"
+        ></script>
+        <ins
+          class="adsbygoogle"
+          style="display: inline-block; width: 300px; height: 250px"
+          data-ad-client="ca-pub-5483228979263143"
+          data-ad-slot="9741264197"
+        ></ins>
+        <script>
+          (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
+      </div> -->
 
       <div class="contact-box">
         <div class="box">
@@ -357,13 +429,10 @@
         <h2>Our Team</h2>
 
         <!-- Inline Text Ad -->
-        <div class="mich-ad mich-text">Ad Space: Inline Text</div>
+        <!-- <div class="mich-ad mich-text">Ad Space: Inline Text</div> -->
 
         <div class="member">
-          <img
-            src="https://media.licdn.com/dms/image/v2/C4E03AQGBLxvy0nFZlg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1649940820555?e=1748476800&v=beta&t=98TQS-lz1MuR9cDAMF68IaUdo28CLNUu7sRZSXESYfk"
-            alt="Owner"
-          />
+          <img src="../mich/amir.png" alt="Owner" />
           <div>
             <h3>Amir Mohammad Zare - Founder & CEO</h3>
             <a
@@ -376,12 +445,39 @@
         </div>
 
         <!-- Responsive Footer Ad -->
-        <div class="mich-ad mich-responsive">Ad Space: Responsive Auto Ad</div>
+        <!-- <div class="mich-ad mich-responsive">
+          <script
+            async
+            src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub- 5483228979263143"
+            crossorigin="anonymous"
+          ></script>
+          <ins
+            class="adsbygoogle"
+            style="display: block"
+            data-ad-client="ca-pub-5483228979263143"
+            data-ad-slot="6199817502"
+            data-ad-format="auto"
+            data-full-width-responsive="true"
+          ></ins>
+          <script>
+            (adsbygoogle = window.adsbygoogle || []).push({});
+          </script>
+        </div> -->
 
         <div class="member">
           <img src="../mich/mich.png" alt="Dev" />
           <div>
-            <h3>mich - Lead Developer And Designer</h3>
+            <h3>mich - Lead Developer</h3>
+            <a href="https://github.com/m1chtv" target="_blank" rel="github"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+          </div>
+        </div>
+
+        <div class="member">
+          <img src="../mich/zahra.svg" alt="Designer" />
+          <div>
+            <h3>Zahra Abedi - Designer</h3>
           </div>
         </div>
       </div>

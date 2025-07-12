@@ -2,6 +2,7 @@
   font-family: "Dongle";
   src: url("./dongle.woff2") format("woff2");
   font-weight: 400;
+  font-display: auto;
   font-style: normal;
 }
 
@@ -9,6 +10,7 @@
   font-family: "Amiri";
   src: url("./amiri.woff2") format("woff2");
   font-weight: 700;
+  font-display: auto;
   font-style: normal;
 }
 
@@ -17,7 +19,7 @@
 }
 
 ::-webkit-scrollbar-thumb {
-  background: linear-gradient(180deg, #f066d200 20%, #9992ff00 100%);
+  background: linear-gradient(180deg, #00000000 20%, #00000000 100%);
   border-radius: 0px;
 }
 
@@ -300,8 +302,8 @@ body {
   margin-bottom: 50px;
 }
 
-.mich-info p{
- font-size: 1.2rem;
+.mich-info p {
+  font-size: 1.2rem;
 }
 
 h1 {
@@ -457,7 +459,7 @@ button:hover {
 /* Ad Styling */
 .mich-ad {
   background: rgba(255, 255, 255, 0.05);
-  border: 1px dashed rgba(255, 255, 255, 0.2);
+  /* border: 1px dashed rgba(255, 255, 255, 0.2); */
   border-radius: 12px;
   color: #ccc;
   font-size: 1rem;
