@@ -72,8 +72,7 @@ cd wiserwork
 - 📡 Public API for select tools
 
 ## 📄 License
-MIT © [mich WiserWork]
-Feel free to fork and use — credits appreciated but not required.
+AGPL © [mich WiserWork]
 
 ## 🌟 Support
 If you find this project useful, consider giving it a ⭐️
